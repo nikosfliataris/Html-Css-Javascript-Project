@@ -1,0 +1,151 @@
+#formbutton{
+	font-size: 15px;
+	border-radius: 25px;
+}
+
+input[type=text], input[type=number], {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 3px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+select[type=products],select[type=colors]{
+	width: 95%;
+  padding: 12px 20px;
+  margin: 8px 3px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.modal button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+	border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.card-container{
+	overflow: hidden;
+
+}
+.card{
+	margin: 5px;
+	padding: 5px;
+	float: left;
+  height: auto;
+}
+
+.footer{
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 0% 0px 0% 0px;
+}
+#collapseOne{
+	height: 100px;
+	width:100%;
+}
+#collapsetwo{
+	height: 100px;
+	width:100%;
+}
+
+#headingOne{
+	width: 100%;
+}
+.card{
+	width: 280px;
+	height: 500px;
+}
+.shop-item-img{
+	width: 280px;
+	height: 260px;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-item-body{
+	width: 275px;
+	height: 175px;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop-card-second-body{
+	text-align: justify;
+	bottom: 1px;
+}
