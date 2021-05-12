@@ -116,12 +116,6 @@ function loadCart() {
     loadCart();
   };
 
-function onLoadCartNumbers() {
-      let productNumbers = localStorage.getItem('countCart');
-      if( productNumbers ) {
-          document.querySelector('.cart-icon span').textContent = productNumbers;
-      }
-  };
 
 function countCart(cart){
   let totalCount=0;
