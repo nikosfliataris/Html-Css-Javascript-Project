@@ -169,5 +169,5 @@ function displayCart(){
 
  };
 
- onLoadCartNumbers();
+ 
 displayCart();
